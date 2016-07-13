@@ -1,0 +1,18 @@
+{
+  "name": "Slackwolf",
+  "description": "A werewolf bot for Slack",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "a valid bot token from the 'Custom Integrations' tab of your Slack 'Configure Apps' page"
+    },
+    "BOT_NAME": {
+      "description": "bot name (make sure it matches Slack config)"
+    },
+    "TIMEZONE": {
+      "description": "your timezone (America/Los_Angeles, America/New_York, etc)"
+    }
+  },
+  "scripts": {
+    "postdeploy": "sh heroku.sh"
+  }
+}

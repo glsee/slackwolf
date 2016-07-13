@@ -22,6 +22,10 @@ Edit the `.env` file with a valid real-time messaging bot token from Slack. Get 
 
 To start the bot type `php bot.php`
 
+#### Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 ## Contributing
 
 Send in pull requests. I wrote this very quickly and it could use some major refactoring of its components. It also needs a lot more roles.
